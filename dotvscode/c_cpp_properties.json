@@ -5,6 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/usr/local/include/**",
+                "/Users/sidhys/miniforge3/pkgs/libcxx-15.0.7-h75e25f2_0/include/c++/v1/"
             ],
             "defines": [],
             "macFrameworkPath": [

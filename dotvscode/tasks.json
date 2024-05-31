@@ -7,7 +7,7 @@
             "command": "bash",
             "args": [
                 "-c",
-                "filename=unnamed-competitive-$(openssl rand -hex 20).cpp && cp .vscode/util/template.cpp $filename && code $filename"
+                "filename=$(openssl rand -hex 20).cpp && cp .vscode/util/template.cpp $filename && code $filename"
             ],
             "problemMatcher": [],
             "presentation": {

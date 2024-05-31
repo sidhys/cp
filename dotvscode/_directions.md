@@ -3,8 +3,7 @@ go to ur g++ include path, make a flder called bits, then make a file called std
 
 open vsc 
 Cmd+shift+p, type "Shell Command: Install 'code' command in PATH" and hit enter and type in ur admin password and shit
-cmd+shift+p then type "open keyboard shortcuts"
-click on the one that isnt read-only and is empty
+cmd+shift+p then type "open keyboard shortcuts (JSON)"
 paste this in 
 ```json
 [[
