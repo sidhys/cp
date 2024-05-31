@@ -6,8 +6,8 @@ Cmd+shift+p, type "Shell Command: Install 'code' command in PATH" and hit enter 
 cmd+shift+p then type "open keyboard shortcuts (JSON)"
 paste this in 
 ```json
-[
-   {
+[[
+    {
         "key": "cmd+shift+n",
         "command": "workbench.action.tasks.runTask",
         "args": "Create Competitive Programming File"
@@ -16,14 +16,9 @@ paste this in
         "key": "cmd+shift+r",
         "command": "workbench.action.tasks.runTask",
         "args": "Compile and Run C++ File"
-    },
-    {
-        "key": "end",
-        "command": "workbench.action.tasks.restartTask",
-        "when": "!editorTextFocus"
     }
 ]
-
+]
 ```
 
 unzip folder
@@ -34,3 +29,5 @@ chmod +x .vscode/util/c_r.sh
 ```
 
 use cmd+shift+n to make a new cp tempalte file & use cmd+shift+r to run
+
+you might also want to configure C++ setup in c_cpp_properties.json and settings.json , i have a very weird setup 
